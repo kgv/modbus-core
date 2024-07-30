@@ -20,6 +20,7 @@ mod codec;
 mod error;
 mod frame;
 
+pub use codec::rtu;
 pub use codec::*;
 pub use error::*;
 pub use frame::*;
